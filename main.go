@@ -8,6 +8,7 @@ import (
 	"to_do_list_app/store"
 )
 
+// main function
 func main() {
 	store.LoadTasks()
 	defer store.SaveTasks()
